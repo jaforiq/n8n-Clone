@@ -146,63 +146,63 @@
 
   
         <!-- Hero Section Wrapper with Background -->
-        <div class="relative ">
-          <!-- 🔽 Background Image -->
-          <img
-            src="https://n8n.io/images/hero-bg.webp"
-            alt="Background"
-            class="absolute inset-0 w-full h-full object-cover z-50"
-          />
-
-          <!-- 🔽 Optional Background Video Overlay -->
-           <!-- <div class="absolute max-w-6xl mx-auto overflow-hidden"> -->
-
-             <video
-             autoplay
-             muted
-             loop
-             playsinline
-             class="absolute inset-0 w-full max-w-6xl h-full px-12 mx-auto object-cover z-0 "
-             >
-             <source src="https://n8n.io/videos/home-intro.mp4" type="video/mp4" />
-            </video>
-          <!-- </div> -->
-
-          <!-- 🔼 Foreground Content -->
-          <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-12 pt-20 pb-16">
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
-              <!-- Left Content -->
-              <div class="space-y-8">
-                <!-- Center align for mobile -->
-                <div class="space-y-4 text-center lg:text-left mx-5">
-                  <h3 class="text-2xl sm:text-3xl lg:text-3xl font-medium leading-tight">
-                    <span class="text-white">Flexible AI workflow automation</span>
-                    <br />
-                    <span class="text-orange-400">for technical teams</span>
-                  </h3>
-                  <p class="text-gray-300 text-base leading-relaxed max-w-lg mx-auto lg:mx-0">
-                    Build with the precision of code or the speed of drag-n-drop. Host with on-prem control or in-the-cloud convenience. n8n gives you more freedom to implement multi-step AI agents and integrate apps than any other tool.
-                  </p>
-                </div>
-
-                <!-- CTA Buttons -->
-                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mx-5">
-                  <button class="bg-n8n-orange hover:bg-orange-600 text-white px-6 py-1 rounded-lg font-medium transition-colors">
-                    Get started for free
-                  </button>
-                  <button class="border border-gray-600 hover:border-gray-500 text-white px-6 py-1 rounded-lg font-medium transition-colors">
-                    Talk to sales
-                  </button>
-                </div>
-              </div>
-
-              <!-- Right Lightning Glow -->
-              <div class="relative lg:block hidden">
-                <div class="absolute inset-0 bg-gradient-to-br from-orange-500 via-red-500 to-purple-600 transform rotate-12 blur-3xl opacity-20"></div>
-              </div>
-            </div>
+<div class="relative overflow-hidden">
+  <!-- Background Image -->
+  <img
+    src="https://n8n.io/images/hero-bg.webp"
+    alt="Background"
+    class="absolute inset-0 w-full h-full object-cover z-0"
+  />
+  
+  <!-- Background Video Overlay -->
+  <video
+    autoplay
+    muted
+    loop
+    playsinline
+    class="absolute inset-0 w-full h-full object-cover z-10 opacity-10"
+  >
+    <source src="https://n8n.io/videos/home-intro.mp4" type="video/mp4" />
+  </video>
+  
+  <!-- Foreground Content -->
+  <div class="relative z-20 w-full h-full">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-12 pt-20 pb-16 min-h-[500px] flex items-center">
+      <div class="grid lg:grid-cols-2 gap-12 items-center w-full">
+        <!-- Left Content -->
+        <div class="space-y-8">
+          <!-- Center align for mobile -->
+          <div class="space-y-4 text-center lg:text-left">
+            <h3 class="text-2xl sm:text-3xl lg:text-4xl font-medium leading-tight">
+              <span class="text-white">Flexible AI workflow automation</span>
+              <br />
+              <span class="text-orange-400">for technical teams</span>
+            </h3>
+            <p class="text-gray-300 text-base leading-relaxed max-w-lg mx-auto lg:mx-0">
+              Build with the precision of code or the speed of drag-n-drop. Host with on-prem control or in-the-cloud convenience. n8n gives you more freedom to implement multi-step AI agents and integrate apps than any other tool.
+            </p>
+          </div>
+          
+          <!-- CTA Buttons -->
+          <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <button class="bg-n8n-orange hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+              Get started for free
+            </button>
+            <button class="border border-gray-600 hover:border-gray-500 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+              Talk to sales
+            </button>
           </div>
         </div>
+
+        <!-- Right Lightning Glow -->
+        <div class="relative lg:block hidden">
+          <div class="absolute inset-0 bg-gradient-to-br from-orange-500 via-red-500 to-purple-600 transform rotate-12 blur-3xl opacity-20"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
         <!-- Feature Cards Section -->
     <div class="relative z-15 max-w-6xl mx-auto px-4 sm:px-6 lg:px-12 pb-8 mt-2">
